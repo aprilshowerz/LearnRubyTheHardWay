@@ -5,6 +5,8 @@ weight = 180 # lbs
 eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'
+centimeters = height * 2.54
+kilograms = weight * 0.45
 
 puts "Let's talk about #{name}."
 puts "He's #{height} inches tall."
@@ -15,3 +17,5 @@ puts "His teeth are usually #{teeth} depending on the coffee."
 
 # this line is tricky, try to get it exactly right
 puts "If I add #{age}, #{height}, and #{weight} I get #{age + height + weight}."
+
+puts "If I add #{age}, #{centimeters}, and #{kilograms} I get #{age + centimeters + kilograms} and I am now European."
